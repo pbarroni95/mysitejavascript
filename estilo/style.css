@@ -1,0 +1,179 @@
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+main div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+div button,
+div p {
+    display: inline;
+}
+
+footer div {
+    display: inline;
+    text-align: center;
+}
+
+nav {
+    background-color: rgba(17, 31, 34, 0.8);
+    height: 100px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+nav .enlace {
+    position: absolute;
+    padding: 20px 50px;
+}
+
+nav .logo {
+    height: 100px;
+    width: 199px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 109px;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: rgb(254, 238, 205);
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px 13px;
+    text-transform: uppercase;
+}
+
+nav ul li a.active,
+nav ul li a:hover {
+    color: rgb(254, 238, 205);
+    text-decoration: none;
+    text-shadow: 0 0 5px #8894A2, 0 0 25px #8894A2, 0 0 50px #8894A2, 0 0 100px #8894A2;
+    transition: 0.5s;
+}
+
+nav .checkbtn {
+    font-size: 30px;
+    color: rgb(254, 238, 205);
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+nav #check {
+    display: none;
+}
+
+
+footer {
+    background: rgba(17, 31, 34, 0.8);
+    color: #c8cd82;
+    text-align: center;
+    padding: 10px 10px;
+    font-size: 10px;
+}
+
+
+footer div {
+    display: inline;
+    text-align: center;
+}
+
+footer ul li {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+footer ul li i {
+    margin-right: 15px;
+}
+
+body {
+    font-family: monospace;
+    color: #c8cd82;
+    background-color: #111f22;
+    margin: 10px;
+}
+
+body p {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+main h1 {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    padding: 30px;
+   padding-top: 90px;
+}
+
+main h2 {
+    text-align: center;
+    color: #ffffff;
+    text-shadow: 0 0 5px #504e4e, 0 0 25px #504e4e, 0 0 50px #504e4e, 0 0 100px #504e4e;
+    padding: 11px;
+    font-size: 26px;
+    font-family: "Roboto Mono", monospace;
+    background-color: rgba(55, 74, 92, 0.2);
+}
+
+main div
+{margin:30px}
+
+#imgcarrito {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(55, 74, 92, 0.2);
+    border-radius: 10px;
+   
+  
+}

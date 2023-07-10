@@ -21,3 +21,5 @@ const pesoProm = (a, b, c, d) => ((a+b+c+d)/4)
 let pesosPromedios = pesoProm(pesoA, pesoB, pesoC, pesoD).toString()
 /*imprimo*/
 alert("El peso promedio de las cuatro personas es " + pesosPromedios)
+
+
