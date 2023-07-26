@@ -20,47 +20,37 @@
     <link rel="stylesheet" href="./estilo/style.css">
     <script defer src="js/classcompra.js"></script>
     <script defer src="js/main.js"></script>
-
+    <script defer src="js/index.js"></script>
 </head>
 
-<body onload="cargar_pagina()">
+<body>
     <header>
         <nav>
-            <input type="checkbox" name="" id="check">
-            <label for="check" class="checkbtn">
-                <i class="fa-solid fa-bars"></i></label>
-            <a href="../index.html" class="enlace"><img src="./img/Logo_Rocy_Lozy.png"
-                    alt="storezone designed for fitness, social and party people" class="logo"></a>
-            <ul class="menu">
-                <li><a href="../index.html">Home</a></li>
-                <li><a class="active" href="../docs/storezone.html">Go to Cart</a></li>
-            </ul>
+            <div>
+                <a href="../index.html" class="enlace">
+                    <img id="logo" src="" alt="storezone designed for fitness, social and party people"
+                        class="logo"></a>
+            </div>
+            <div>
+                <h1 id="titulo"> Tienda Accesorios Aesthetik</h1>
+            </div>
+          
+
         </nav>
     </header>
-    <main>
-        <h1> Tienda Online Accesorios Aesthetik</h1>
-        <div>
-            <h2> Enterate ya de la nueva Colección Invierno 2023 →</h2>
 
-        </div>
+    <main>
         <div>
-            <ol>
-                <ul> 💍 Collar Metalik </ul>
-                <ul> 🎩 Piluso Blackside </ul>
-                <ul> 🧦 Medias Rock </ul>
-                <ul> 🧢 Gorra Leather </ul>
-                <ul> 👒 Gorro Winter </ul>
-                <ul> 🕶 Lentes Tattoo </ul>
-            </ol>
+            <h2 id="slogan"> Tienda Accesorios Aesthetik</h2>
         </div>
-        <div>
-            <button style="box-shadow: 0 0 5px #373d42, 0 0 25px #373d42, 0 0 50px #373d42, 0 0 100px #373d42">Add
-                to
-                shopping cart </button>
+        <div class="carrito">
+            <p>Carrito:<span id="stock">0</span></p>
+        </div>
+        <div class="container" id="container">
+
         </div>
     </main>
     <hr>
-    </main>
     <footer>
         <div class="container-fluid">
             <div class="row">

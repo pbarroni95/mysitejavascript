@@ -1,13 +1,9 @@
-function cargar_pagina() {
-    alert('Bienvenidx a nuestra tienda aesthetik! 🕶');
-    alert('Abra la consola JS para iniciar la función comprar')
-}
-
-
-const carrito = []
-
 const arrayProductos = [
     { prenda: '💍', codigo: 1, descripcion: 'Collar Metalik', precio: 15000 },
+    { prenda: '🎩', codigo: 2, descripcion: 'Piluso Blackside', precio: 25000 },
+    { prenda: '🧦', codigo: 3, descripcion: 'Medias Rock', precio: 15000 },
+    { prenda: '🧢', codigo: 4, descripcion: 'Gorra Leather', precio: 25000 },
+    { prenda: '👒', codigo: 5, descripcion: 'Gorro Winter', precio: 55000 },  
     { prenda: '🎩', codigo: 2, descripcion: 'Piluso Blackside', precio: 25000 },
     { prenda: '🧦', codigo: 3, descripcion: 'Medias Rock', precio: 15000 },
     { prenda: '🧢', codigo: 4, descripcion: 'Gorra Leather', precio: 25000 },
@@ -15,11 +11,14 @@ const arrayProductos = [
     { prenda: '🕶', codigo: 6, descripcion: 'Lentes Tattoo', precio: 20000 }
 ]
 
+const carrito = []
+
+
 //*creacion de funciones que le den vida a la lista de productos o sea al array*/
 
 
 
-function buscarPrenda(codigo) {
+/*function buscarPrenda(codigo) {
     let resultado = arrayProductos.find((prenda) => prenda.codigo === parseInt(codigo))
     return resultado
 }
@@ -47,4 +46,4 @@ function comprar() {
             finalizarCompra()
         }
     }
-}
+}*/
